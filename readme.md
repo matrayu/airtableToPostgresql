@@ -2,7 +2,7 @@
 
 Hacky lil' script that will convert an Airtable Base to a PostgreSQL-like schema and generate a csv. 
 
-My usecase was wanting to visualize some Airtable bases in Lucid Chart. Lucid Chart allows for ERD imports from csv, so this works great.
+My usecase was wanting to visualize some Airtable bases in Lucidchart. Lucidchart allows for ERD imports from csv, so this works great.
 
 
 ## Running
@@ -13,18 +13,18 @@ My usecase was wanting to visualize some Airtable bases in Lucid Chart. Lucid Ch
 3. Copy & paste [script](https://github.com/matrayu/airtableToPostgresql/blob/master/convertAirtableToPostgresqlSchema.js "script") into console and hit enter. The result of this action will automatically download a .csv file to your local HDD.
 <hr>
 
-## Importing into LucidChart
+## Importing into Lucidchart
 4. File -> Import Data
-5. Select "Entity Relationship (ERD)
-6. Select "Import Your Data" -> "Import from SQL Database
+5. Select "Entity Relationship (ERD)"
+6. Select "Import Your Data" -> "Import from SQL Database"
 7. Select "PostgreSQL" and click "Next"
 8. Select "Choose File" and locate the file that was downloaded in step 3 and click "Open"
 9. Click "Import"
 
-Once imported, you should now be able to drag and drop your tables onto you LucidChart diagram
+Once imported, you should now be able to drag and drop your tables onto you Lucidchart diagram
 
 <hr>
 
-Example output of an Airtable Base, represented visually in LucidChart
+Example output of an Airtable Base, represented visually in Lucidchart
 ![airtablePostgreSQLExample](https://user-images.githubusercontent.com/45020760/117190096-d6c58a00-ad93-11eb-831c-fb0215324395.jpg)
 
