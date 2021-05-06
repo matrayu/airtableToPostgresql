@@ -7,7 +7,7 @@ My usecase was wanting to visualize some Airtable bases in Lucidchart. Lucidchar
 
 ## Running
 
-1. Navigate to Airtable base API page (ie: https://airtable.com/appnGoUJxA6R6XXXXX/api/docs)
+1. Navigate to Airtable base API page (ie: https://airtable.com/appnGoUJxA6R6XXXXX/api/docs -> simply replace "appnGoUJxA6R6XXXXX" with any Airtable base ID you have access to)
 2. Open devTools console
     - To open the developer console in Google Chrome, open the Chrome Menu in the upper-right-hand corner of the browser window and select More Tools > Developer Tools. You can also use the shortcut Option + ⌘ + J (on macOS), or Shift + CTRL + J (on Windows/Linux).
 3. Copy & paste [script](https://github.com/matrayu/airtableToPostgresql/blob/master/convertAirtableToPostgresqlSchema.js "script") into console and hit enter. The result of this action will automatically download a .csv file to your local HDD.
