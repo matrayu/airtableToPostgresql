@@ -2,7 +2,7 @@
 
 Hacky lil' script that will convert an Airtable Base to a PostgreSQL-like schema and generate a csv. 
 
-My usecase was wanting to visualize some Airtable bases in Lucidchart. Lucidchart allows for ERD imports from csv, so this works great.
+My usecase was wanting to visualize some Airtable bases in Lucidchart. Lucidchart allows for Entity Relationship Diagram (ERD) imports from csv, so this works great.
 
 
 ## Running
