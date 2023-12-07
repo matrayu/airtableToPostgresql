@@ -2,6 +2,8 @@
 // copy and paste the script below into the devTools console
 // output will generate a postgresql-like schema csv
 
+const application = initData.application;
+
 let baseName = application.name;
 let tableMap = [];
 let rows = [];
